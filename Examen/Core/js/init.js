@@ -27,7 +27,7 @@ var productsSetup = function (){
     if(urlParam("productid")){
         categories.getSingleProduct(decodeURIComponent(urlParam("productid")))
     }
-}
+};
 
 function loadScript(url, callback){
     var head = document.head
